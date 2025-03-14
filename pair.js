@@ -6,7 +6,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-    default: Maher_Zubair,
+    default: Monjan_Nick,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -80,7 +80,7 @@ router.get('/', async (req, res) => {
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    SIGMA_MD_PAIR_CODE();
+                    NICK_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
